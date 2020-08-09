@@ -1,14 +1,13 @@
 <template>
   <div id="app">
     <Nav />
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Intro />
     <PortfolioSlider />
-    <img alt="Vue logo" src="./assets/logo.png">
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Intro from './components/Intro.vue'
 import Nav from './components/Nav.vue'
 import PortfolioSlider from './components/PortfolioSlider.vue'
 
@@ -16,7 +15,7 @@ export default {
   name: 'App',
   components: {
     Nav,
-    HelloWorld,
+    Intro,
     PortfolioSlider
   }
 }
@@ -28,6 +27,5 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
 }
 </style>
